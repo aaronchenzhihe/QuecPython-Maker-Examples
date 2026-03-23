@@ -8,7 +8,7 @@ This TinyML system applies machine learning directly on embedded hardware to det
 
 ## Features
 
-- **Real-time Detection**: Response time for motion detection is 150-300ms
+- **Real-time Detection**: Response time for fall detection is 150-300ms
 - **Memory Efficiency**: Automatic buffer management with overflow prevention
 - **False Alarm Prevention**: 3 consecutive consistent results are required before detection
 - **Timer-based Processing**: Non-blocking hardware timer architecture
@@ -30,7 +30,7 @@ tinyml-Fall/
 
 ## Technical Details
 
-- **Platform**: Quectel embedded module running MicroPython
+- **Platform**: Quectel embedded module running QuecPython
 - **Sensor**: MPU6500 6-axis IMU (3-axis accelerometer + 3-axis gyroscope)
 - **Model**: Random forest classifier (3 categories: 0 = Static, 1 = Walking, 2 = Fall type)
 - **Sampling**: 50Hz sensor reading, 20Hz inference
@@ -43,7 +43,6 @@ tinyml-Fall/
 - **Memory Management** - Buffer contamination issue has been resolved
 - **Real-time Processing** - Timer-based architecture has been implemented
 - **Anti-shake System** - False alarm prevention function works properly
-- **Circular Motion** - Currently under development
 
 ## Quick Start
 
