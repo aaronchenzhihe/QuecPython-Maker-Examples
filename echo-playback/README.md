@@ -21,9 +21,9 @@
 
 部分配件可在[移远官网商城](https://www.quecmall.com/)或[移远天猫旗舰店](https://yiyuanznsb.tmall.com/)查询购买
 
-- QEM820MA-CN 开发套件
-- 麦克风（连接开发板的 mic 口）
-- 喇叭（连接开发板的 spk 口）
+- QEM820MA-CN 开发套件，[点此购买](https://www.quecmall.com/goods-detail/2c90800b97abfe7c0197d347e3860183)
+- 麦克风（连接开发板的 mic 口），[点此购买](https://item.taobao.com/item.htm?ali_refid=a3_430673_1006%3A1225370106%3AH%3A%2F0C6k1PrpoBLUo740Pk1ZvVu4AjaM48I%3A691e1065072817dd48f7ad842e0f61eb&ali_trackid=282_691e1065072817dd48f7ad842e0f61eb&id=829753612507&loginBonus=1&mi_id=0000QPR79lnuLSHQ0nV3YQGOa2uaajbpbPQdKtEcGnc5xDc&mm_sceneid=1_0_114858190_0&priceTId=2150461e17742513125072961e1c88&spm=a21n57.sem.item.54&utparam=%7B%22aplus_abtest%22%3A%2252b1b5c7415ee258969ef4d454495924%22%7D&xxc=ad_ztc)
+- 喇叭（连接开发板的 spk 口），[点此购买](https://www.quecmall.com/goods-detail/2c90800c9488358b01956aa656680239)
 - USB 线（连接电脑）
 
 ​	<img src="./media/硬件清单图.png" style="zoom:80%;" />
@@ -60,15 +60,15 @@ QEM820MA-CN开发套件示意图
 
 ### 软件烧录
 
-**烧录：**打开 QPYcom，选对端口（REAL PORT），按提示把固件刷进去。
+**烧录**：打开 QPYcom，选对端口（REAL PORT），按提示把固件刷进去。
 
 ​	<img src="./media/audio-play-firmware.gif" style="zoom:80%;" />
 
-**运行：** 把示例脚本拖进 usr 分区，右键点击运行。
+**运行**： 把示例脚本拖进 usr 分区，右键点击运行。
 
 ​	<img src="./media/audio-play-download.png" style="zoom:80%;" />
 
-**结果：**查看QPYcom的log，打印 record start时用户说话，打印 record end停止说话，开发板自动播放录音
+**结果**：查看QPYcom的log，打印 record start时用户说话，打印 record end停止说话，开发板自动播放录音
 
 烧录固件和代码详细流程：[点此跳转](https://developer.quectel.com/doc/quecpython/Getting_started/zh/)
 

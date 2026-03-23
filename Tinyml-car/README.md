@@ -12,7 +12,6 @@ This TinyML system employs machine learning directly on embedded hardware to det
 - **Memory Efficiency**: Automatic buffer management with overflow prevention
 - **False Alarm Prevention**: Requires 3 consecutive consistent results before detection confirmation
 - **Timer-based Processing**: Non-blocking hardware timer architecture
-- **Gesture Separation**: Independent analysis of each gesture to avoid mutual interference
 
 ## Directory Structure
 
@@ -31,7 +30,7 @@ tinyml-car/
 
 ## Technical Details
 
-- **Platform**: Quectel embedded module running MicroPython
+- **Platform**: Quectel embedded module running QuecPython
 - **Sensor**: MPU6500 6-axis IMU (3-axis accelerometer + 3-axis gyroscope)
 - **Model**: Random Forest classifier (4 categories: 1 = driving on flat ground, 2 = uphill, 3 = downhill, 4 = skidding)
 - **Sampling**: 50Hz sensor reading, 20Hz inference
@@ -44,7 +43,6 @@ tinyml-car/
 - **Memory Management** - Buffer contamination issue resolved
 - **Real-time Processing** - Timer-based architecture implemented
 - **Anti-shake System** - False alarm prevention function working properly
-- **Circular Motion** - Currently under development
 
 ## Quick Start
 
@@ -66,7 +64,7 @@ Before you start, please ensure you have the following prerequisites:
 1. **Clone the repository**:
 
 ```plaintext
-git clone https://github.com/aaronchenzhihe/Tinyml-car.git
+git clone https://github.com/QuecPython/Tinyml-car.git
 ```
 
    2.**Flash the firmware**: Flash the firmware to the development board according to the instructions.
